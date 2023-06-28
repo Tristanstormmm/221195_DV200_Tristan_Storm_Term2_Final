@@ -20,9 +20,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $age = $_POST['age'];
     $medicalAidNumber = $_POST['medical_aid_number'];
     $email = $_POST['email'];
+    $profile_img = $_POST['profile_img'];
 
     // Insert the new patient into the database
-    $query = "INSERT INTO patients (name, surname, gender, age, medical_aid_number, email) VALUES ('$name', '$surname', '$gender', '$age', '$medicalAidNumber', '$email')";
+    $query = "INSERT INTO patients (name, surname, gender, age, medical_aid_number, email, profile_img) VALUES ('$name', '$surname', '$gender', '$age', '$medicalAidNumber', '$email','$profile_img')";
     mysqli_query($conn, $query);
 
     mysqli_close($conn);
@@ -59,6 +60,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="text" name="email"><br>
             <label for="password">Password:</label>
             <input type="password" name="password"><br>
+            <label for="profile_img">Profile Image:</label>
+            <input type="text" name="profile_img">
             <input type="submit" value="Add Patient">
         </form>
     </div>
