@@ -44,7 +44,7 @@ Overall, the dental clinic management system I developed provides a comprehensiv
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
 
-[View Demonstration]([https://drive.google.com/file/d/184F6lbd4yaS4TS12pho0h7AgWf0kZV1L/view?usp=sharing](https://drive.google.com/file/d/1bO68jwo7vZgBQRh04ekIUkr_k7EQ890X/view?usp=sharing))
+[View Demonstration](https://drive.google.com/file/d/1bO68jwo7vZgBQRh04ekIUkr_k7EQ890X/view?usp=sharing)
 
 <!-- AUTHORS -->
 ## Author
